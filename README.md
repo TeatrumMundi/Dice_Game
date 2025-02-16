@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Dice Game 🎲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple dice rolling game built with React. Players can roll a dice up to a maximum of 10 times, and the game tracks statistics such as total points, average value, minimum and maximum rolls, and bonus points.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Roll a dice up to 10 times.
+- Track the roll history and various statistics (Total points, Average value, Minimum and Maximum roll).
+- Reset the game or start a new game.
+- Display dice images based on the roll.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: For styling the game.
+- **JavaScript**: For game logic and functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup and Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the repository:
 
-### `npm run build`
+```bash
+git clone https://github.com/your-username/dice-game.git
+cd dice-game
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### 3. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start the app at http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Usage
+Click on the "🎲 Roll the dice" button to roll a dice.
+A maximum of 10 rolls are allowed.
+After the game is over, you can click on the "🔄 New Game" button to reset the game and start fresh.
+The statistics panel will display the roll history, total points, average value, minimum and maximum rolls, and bonus points.
+Game Logic
+Each time a dice is rolled, a random number between 1 and 6 is generated.
+The game tracks the roll history and computes basic statistics:
+Total points: Sum of all dice rolls.
+Average value: Average of all dice rolls.
+Minimum roll: The lowest roll value.
+Maximum roll: The highest roll value.
+Bonus points: Calculated based on the rolls).
